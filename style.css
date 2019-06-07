@@ -1,0 +1,120 @@
+[class*="col-"] {
+  width: 100%;
+  
+}
+
+body {
+    background-color: rgb(240, 240, 254);
+}
+#main {
+    font-family: raleway;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+#heading {
+    font-size: 32px;
+}
+
+#paragraph {
+    font-size: 20px;
+}
+
+
+#seeOurLineup {
+    font-family: raleway;
+    background-color: rgb(51, 61, 111);
+    color: white;
+    border-style: solid;
+    border-color: rgb(51, 61, 111);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px grey;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+#seeOurLineup:active {
+
+box-shadow: 0px 0px 0px white;
+}
+
+#getQuote:active {
+box-shadow: 0px 0px 0px white;
+}
+
+
+#getQuote {
+    display: inline-block;
+    font-family: raleway;
+    background-color: white;
+    color: rgb(89, 138, 237);
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px grey;
+}
+
+@media only screen and (min-width: 768px) {
+body {
+    background-color: rgb(240, 240, 254);
+}
+#main {
+    font-family: raleway;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 150px 200px 200px;
+    padding: 0px 0px 0px 50px;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+#heading {
+    font-size: 32px;
+}
+
+#paragraph {
+    font-size: 20px;
+}
+
+
+#seeOurLineup {
+    font-family: raleway;
+    background-color: rgb(51, 61, 111);
+    color: white;
+    border-style: solid;
+    border-color: rgb(51, 61, 111);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px grey;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+#seeOurLineup:active {
+box-shadow: 0px 0px 0px white;
+}
+
+#getQuote {
+    display: inline-block;
+    font-family: raleway;
+    background-color: white;
+    color: rgb(89, 138, 237);
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    box-shadow: 1px 2px 5px grey;
+}
+
+#getQuote:active {
+box-shadow: 0px 0px 0px white;
+}
+}
