@@ -4,7 +4,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <main id="main">
-        <div id="d1">
+        <div id="top">
+    <div id="d1">
         <h1 id="heading">From small to giant, <br>your mixing and dispensing needs met.</h1>
     </div>
     <div = "d2">
@@ -12,13 +13,93 @@
         urethane, epoxy, and acrylics. <br>It’s simple, dependable, and economical.</p>
         </div>
     <div id="d3">
-            <div id="seeOurLineup">SEE OUR LINEUP</div>
-            <div id="getQuote">GET A QUOTE</div>
+            <div class="button1">SEE OUR LINEUP</div>
+            <a href="#requestQuote"><span id="getQuote">REQUEST A QUOTE</span></a>
     </div>
     <div id = "d4">
-        <img class="pump" src="./aPump.png">
-        <img class="pump" src="./maxFlow.png">
+        <img class="pump" src="./pumps.png">
     </div>
+</div>
+   <div id="requestQuote">
+       <h1>Request a Quote</h1> 
+    </div>
+       <form id="survey">
+<div class="row">
+    <label id="name-label">*Name:</label>
+    <div class="right">
+        <input class="text" type="text" required placeholder="Enter your name">
+    </div>
+</div>
+<div class="row">
+    <label id="email-label">*Email:</label>
+    <div class="right">
+        <input class="text" type="email" required placeholder="Enter your email">
+    </div>
+</div>
+<div class="row">
+    <label id="number-label">*Age:</label>
+    <div class="right">
+        <input class="text" type="number" required placeholder="Enter your age" min="1" max="150">
+    </div>
+</div>
+<div class="row">
+    <label id="recommend-label">How Likely is that you would recommend my portfolio to a friend?:</label>
+    <div class="right">
+        <li class="radio">
+            <label>
+                <input type="radio" name="radio-buttons" value="1">Definitely</label>
+        </li>
+        <li class="radio">
+            <label>
+                <input type="radio" name="radio-buttons" value="2">Maybe</label>
+        </li>
+        <li class="radio">
+            <label>
+                <input type="radio" name="radio-buttons" value="3">Not Sure</label>
+        </li>
+    </div>
+</div>
+<div class="row">
+    <label id="dropdown">Which option best describes your current role?</label>
+    <div class="right">
+        <select required>
+            <option value="Student">Student</option>
+            <option value="Full time job">Full time job</option>
+            <option value="Part time job">Part time job</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+    </div>
+</div>
+<div class="row">
+    <label id="checkbox-label">Areas you would like to pursue (Check all that apply):</label>
+    <div class="right">
+        <li class="checkbox">
+            <label>
+                <input type="checkbox" name="option 1" value="Front-end">Front-end Projects</label>
+        </li>
+        <li class="checkbox">
+            <label>
+                <input type="checkbox" name="option 2" value="Back-end">Back-end Projects</label>
+        </li>
+        <li class="checkbox">
+            <label>
+                <input type="checkbox" name="option 3" value="Data Visualization">Data Visualization</label>
+        </li>
+        <li class="checkbox">
+            <label>
+                <input type="checkbox" name="option 4" value="More Projects">More Projects</label>
+        </li>
+    </div>
+</div>
+<div class="row">
+    <textarea class="text" placeholder="Type additional comments here" rows="4" cols="50"></textarea>
+</div>
+<div class="row">
+    <button type="submit" class="button1">Submit Survey!</button>
+</div>
 
-    </main>
+       </form>
+   </div>
+
+
 </html>
